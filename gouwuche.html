@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/gouwuche.css" />
+	</head>
+	<body>
+		<div id="hd"></div>
+		<div id="bd">
+			<div class="bdbox">
+				<img src="images/mobile-adt.png" />
+				<div class="shopcar">
+					<img src="images/shop1.png" />
+					<!--需要加载新的购物清单-->
+					<div class="shoplist">       
+						<div class="CommodityCate">
+							<span class="th-chk">
+								<input type="checkbox" id="qx" />全选
+							</span>
+							<span class="th-item">商品</span>
+							<span class="th-price">单价</span>
+							<span class="th-amount">数量</span>
+							<span class="th-sum">获得积分</span>
+							<span class="th-op">操作</span>
+						</div>
+						<div class="CommodityTitle">
+							<div class="ActivitieHead Initiate">
+								<h3>潮流经典，别具一格 折后满299减30，可累计，上不封顶</h3>
+							</div>
+							<div class="Activities">
+								<p>已减30.00元，再买41.00元，将在结算时立减60.00元</p>
+								<a href="#">查看活动详情 &gt;</a>
+							</div>									
+						</div>
+						<div class="CommodityList">
+							<!--添加的列表-->
+							<!--<div class="newshoplist">
+								<div class="category th-chk">
+									<input type="checkbox" class="xuan" />
+								</div>
+								<div class="category th-item">
+									<img src="images/10088982026_1.jpg" />
+									<p>ZOJIRUSHI象印银泰专柜发货 博朗牌负离子发梳 多功能直/卷美发工具 BR750</p>
+								</div>
+								<div class="category th-price">
+									<span>￥199</span>
+								</div>
+								<div class="category th-amount">
+									<span class="updateCount" data-number="1">+</span>
+									<span class="shop-count">1</span>
+									<span class="updateCount" data-number="-1">-</span>
+								</div>
+								<div class="category th-sum">
+									199
+								</div>
+								<div class="category th-op">
+									<div class="pro-remove">删除商品</div>
+								</div>
+							</div>-->
+							<!--添加的列表结束-->								
+						</div>
+						<div id="jiesuan">
+							<div class="jiesuan1"></div>
+							<div class="jiesuan2"> 								
+								共<span class="count2"></span>件商品，结算金额<span class="money2"></span>元
+							</div>
+						</div>
+					</div>
+					<!--需要加载新的购物清单结束-->
+				</div>
+			</div>
+		</div>
+		<div id="ft"></div>
+	</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/index1.js"></script>
+<script src="js/gouwuche.js"></script>
