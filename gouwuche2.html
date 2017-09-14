@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车2</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/gouwuche2.css" />
+	</head>
+	<body>
+		<div id="hd"></div>
+		<div id="bd">
+			<div class="bdbox">
+				<img src="images/mobile-adt.png" />	
+				<div class="shopcar">
+					<img src="images/shop02.png" />
+					<!--表单开始-->
+					<div class="CommodityBox J-AddrEditBox">
+						<div class="PersonalMessage PerBackColor">
+							<!--表头-->
+							<div class="MessageTitile J-HD">
+								<h3>收货信息</h3>
+							</div>
+							<!--表头结束-->
+							<div class="AddressInfor J-AddrList">							
+								<div class="AddList J-AddrItem cf">
+									<input id="deliveryAddr_New" name="checkAddres" type="radio" class="J-ItemRadio">
+									<label for="deliveryAddr_New">使用新地址</label>
+								</div>
+								<div class="FillInAdd J-EditPanel" style="height: auto;">
+									<ul>
+										<li>
+											<span class="Tit">收&nbsp; 货 人：</span>
+											<input type="text" maxlength="30" class="consignee J-Name" value="">
+											<span class="CheckoutWarn J-AddrWarn s1"></span>
+										</li>
+										<li>
+											<span class="Tit">手　　机：</span>
+											<input type="text" class="Phone J-Mobile ppp" maxlength="13" value="" >
+											<em class="oiien">或者</em>
+											固定电话：<input type="text" class="PhonePrefix J-TelPrefix" value="" maxlength="4"> 
+											- <input type="text" class="Phone J-Tel" value="">
+											- <input type="text" class="PhoneExt J-TelExt" value="">
+											<span class="CheckoutWarn J-AddrWarn s2"></span>
+										</li>
+										<li>
+											<span class="Tit">收货地址：</span>
+											<select>
+												<option>请选择</option>
+												<option>北京</option>
+												<option>上海</option>
+											</select>
+											<div class="yourAddress">
+												<input type="text" class="PreAddress J_Street" maxlength="90" value="">
+												<span class="CheckoutWarn J-AddrWarn s3"></span>
+											</div>
+										</li>
+										<li>
+											<span class="Tit">邮政编码：</span>
+											<input type="text" class="PostalCode J-ZipCode" value="" maxlength="6">
+											<span class="CheckoutWarn f-hidden J-AddrWarn s4"></span>
+										</li>
+										<li class="receipt-time-line"></li>
+										<li class="receipt-time-list">
+											<span class="Tit">送货时间：	 </span>
+											<p>
+												<span>
+													<input type="radio" name="deliveryTime_"class="J-DeliveryTime" value="1" checked="checked">
+													<label for="delivertTimeRadio_1_">工作日送货</label>
+													<em>周一至周五，早上9:00至晚6:00</em>
+												</span>
+												<span>
+													<input type="radio" name="deliveryTime_" class="J-DeliveryTime" value="2">
+													<label for="delivertTimeRadio_2_">节假日送货</label>
+													<em>周六日及国家法定节假日</em>
+												</span>
+												<span>
+													<input type="radio" name="deliveryTime_" class="J-DeliveryTime" value="3">
+													<label for="delivertTimeRadio_3_">任何时间送货</label>
+												</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="Add-affirm">
+									<button id="btn" class="c-btn J-SubmitBtn" onclick="" type="button">确认收货信息</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="ft"></div>
+	</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/index1.js"></script>
+<script src="js/gouwuche2.js"></script>
