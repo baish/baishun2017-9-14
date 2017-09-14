@@ -89,5 +89,5 @@ $("#jiesuan").on("click",".jiesuan1",function(){
 	var crr = [];
 	crr.push(countsum);
 	setCookie("shopcount",JSON.stringify(crr))
-	location.href = "http://127.0.0.1/2xiangmu/gouwuche2.html"
+	location.href = "https://baish.github.io/baishun2017-9-14/gouwuche2.html"
 })

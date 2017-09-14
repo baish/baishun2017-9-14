@@ -40,7 +40,7 @@ $("#btn1").click(function(){
 //跳转到下一个页面
 $("#btn2").click(function(){
 	if( $("#txt1").val() == $(".yzm").html() ){
-		location.href = "http://127.0.0.1/2xiangmu/mima3.html"		
+		location.href = "https://baish.github.io/baishun2017-9-14/mima3.html"		
 	}else{
 		alert("输入的验证码不对")
 	}

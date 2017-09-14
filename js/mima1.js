@@ -21,6 +21,6 @@ $(".bdbox").on("click","#btn",function(){
 		var crr = [];
 		crr.push(phone);
 		setCookie("mPhone",JSON.stringify(crr))
-		location.href = "http://127.0.0.1/2xiangmu/mima2.html"		
+		location.href = "https://baish.github.io/baishun2017-9-14/mima2.html"		
 	}
 })

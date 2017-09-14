@@ -48,7 +48,7 @@ $(".PostalCode").blur(function(){
 })
 $("#btn").click(function(){
 	if(flag1 && flag2 && flag3 && flag4){		
-		location.href = "http://127.0.0.1/2xiangmu/gouwuche3.html";
+		location.href = "https://baish.github.io/baishun2017-9-14/gouwuche3.html";
 	}
 })
 

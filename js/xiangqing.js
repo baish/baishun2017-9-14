@@ -4,7 +4,7 @@ var pid = str.split("=")[1];
 //console.log(pid)
 $.ajax({
 	type:"get",
-	url:"http://127.0.0.1/2xiangmu/data.json",
+	url:"https://baish.github.io/baishun2017-9-14/data.json",
 	success : function(res){
 		var html = "";
 		var html1 = "";
@@ -95,7 +95,7 @@ $(".mainer").on("click","#shopcar",function(){
 	setCookie("shoplist",JSON.stringify(arr));
 	var f = confirm("是否继续购买")
 	if(!f){
-		location.href = "http://127.0.0.1/2xiangmu/gouwuche.html"  //连接购物车网址
+		location.href = "https://baish.github.io/baishun2017-9-14/gouwuche.html"  //连接购物车网址
 	}
 	console.log(document.cookie)
 })

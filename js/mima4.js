@@ -4,7 +4,7 @@ $("#s1").html(i)
 timer = setInterval(function(){
 	if(i <= 0 ){
 		clearInterval(timer);
-		location.href = "http://127.0.0.1/2xiangmu/zhuye.html";
+		location.href = "https://baish.github.io/baishun2017-9-14/zhuye.html";
 	}else{
 		i--;
 		$("#s1").html(i);

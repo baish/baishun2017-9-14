@@ -51,13 +51,13 @@ $("#hd").load("index.html #hd",function(){
 		if( crr.length != 0 ){
 			for(var i = 0 ; i<crr.length; i++){
 				html = `<span class="welcome J-welcome">Hi，${crr[0].phone}</span>				
-				<a rel="nofollow" title="单击注册" class="reg" href="http://127.0.0.1/2xiangmu/zhuce.html">退出</a>`					
+				<a rel="nofollow" title="单击注册" class="reg" href="https://baish.github.io/baishun2017-9-14/zhuce.html">退出</a>`					
 			}
 			$(".log-user").html(html);
 		}else{
 			html = `<span class="welcome J-welcome">Hi，欢迎来到银泰网！</span>
-			        <a rel="nofollow" class="login" title="单击登录" href="http://127.0.0.1/2xiangmu/denglu.html">登录</a>
-			        <a rel="nofollow" title="单击注册" class="reg" href="http://127.0.0.1/2xiangmu/zhuce.html">注册</a>`
+			        <a rel="nofollow" class="login" title="单击登录" href="https://baish.github.io/baishun2017-9-14/denglu.html">登录</a>
+			        <a rel="nofollow" title="单击注册" class="reg" href="https://baish.github.io/baishun2017-9-14/zhuce.html">注册</a>`
 			$(".log-user").html(html);		
 		}
 	})
