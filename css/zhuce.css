@@ -1,0 +1,90 @@
+#bd {
+  background: #f9f9f9;
+  overflow: hidden;
+}
+#bd .register-bd {
+  width: 1190px;
+  margin: 0 auto;
+  padding: 60px 0 50px;
+  overflow: hidden;
+}
+#bd .register-bd .imgleft {
+  float: left;
+  width: 780px;
+  height: 460px;
+  overflow: hidden;
+  background-color: #fff;
+}
+#bd .register-bd .formright {
+  float: right;
+  width: 385px;
+  min-height: 460px;
+  border-radius: 3px;
+  position: relative;
+  background-color: #f9f9f9;
+}
+#bd .register-bd .formright .register-title {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 4px solid #E5004F;
+}
+#bd .register-bd .formright .register-warm {
+  padding: 10px 20px;
+  text-align: right;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #d2d2d2;
+}
+#bd .register-bd .formright .register-warm a {
+  color: #E5004F;
+}
+#bd .register-bd .formright .field {
+  padding-left: 20px;
+  height: 44px;
+  line-height: 44px;
+  border-bottom: 1px solid #d2d2d2;
+  background-color: #fff;
+}
+#bd .register-bd .formright .field input {
+  border: 0;
+  height: 20px;
+  width: 50%;
+  color: #333;
+}
+#bd .register-bd .formright .field #getValidateCode {
+  float: right;
+  margin-right: 20px;
+  margin-top: 8px;
+  width: 90px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #999;
+  border-radius: 3px;
+  color: #666;
+  background-color: #fff;
+}
+#bd .register-bd .formright .useExplain {
+  line-height: 16px;
+  padding: 10px;
+  color: #666;
+  font-size: 12px;
+  background-color: #f9f9f9;
+}
+#bd .register-bd .formright #submitButton {
+  color: #fff;
+  background: #ccc;
+  border: 1px solid #ccc;
+  display: block;
+  width: 80%;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 auto 15px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 6px;
+}
+span {
+  color: #E5004F;
+}

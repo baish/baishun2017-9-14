@@ -1,0 +1,267 @@
+#bd{
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+}
+#tab_nav{
+    position: relative;
+    .top_shadow{
+        height: 12px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 5;
+    }
+    .pannels{
+        height: 470px;
+        .tab_pannel{
+            width: 100%;
+            background-position: center 0;
+            background-repeat: no-repeat;
+            left: 0;
+            top: 0;
+            .content{
+                width: 1190px;
+                height: 470px;
+                margin: 0 auto;
+                position: relative;
+                a{
+                    display: block;
+                    width: 1190px;
+                    height: 470px;
+                    img{
+                        vertical-align: top;
+                    }
+                }
+            }
+        }
+    }
+   .eva-switchable-prev,.eva-switchable-next{
+        position: absolute;
+        top: 50%;
+        margin-top: -30px;
+        cursor: pointer;
+        width: 30px;
+        height: 60px;
+        text-indent: -99px;
+        overflow: hidden;
+        background-image: url(../images/prevnext.png);
+        background-repeat: no-repeat;    
+    }
+    .eva-switchable-prev{
+        left: 50%;
+        margin-left: -385px;
+        background-position: left top;
+    }
+    .eva-switchable-prev:hover{
+        background-position: left bottom;
+    }
+    .eva-switchable-next{
+        right: 50%;
+        margin-right: -395px;
+        background-position: right top;
+    }
+    .eva-switchable-next:hover{
+        background-position: right bottom;
+    }
+    .nav_trriger_warp{
+        width: 1190px;
+        margin: 0 auto;
+        position: relative;
+        ul{
+            position: absolute;
+            top: -30px;
+            .eva-switchable-active{
+                border-color:#e5004f;
+                span{
+                    display:none;
+                    position:absolute;
+                    top:-4px;
+                    left:20px;
+                    width:7px;
+                    height:4px;
+                    background:url(../images/nav-tip.png) no-repeat scroll 0 0
+                }
+            }
+            li{
+                float: left;
+                cursor: pointer;
+                width: 30px;
+                border-bottom: 8px solid #211616;
+                position: relative;
+                margin-right: 1px;
+            }
+        }
+    }
+}
+.yt-wrap{
+    position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    .f_pic{
+        position: absolute;
+        width: 200px;
+        height: 470px;
+        top: -470px;
+        right: 0;
+        a{
+            width: 200px;
+            display: block;
+            height: 470px;
+            background: url(../images/mobile.jpg) 0 0 no-repeat;
+            transition: all 0.2s linear;
+        }
+        a:hover{
+            transform:translateX(-5px);
+        }
+    }
+}
+.yt_floor_item{
+    margin-top: 20px;
+    overflow: hidden;
+    width: 1190px;
+    margin: 0 auto;
+    .floor_title{
+        padding: 8px 5px;
+        background: #fff;
+        h6{
+            width: 260px;
+            height: 36px;
+            text-indent: -9999em;
+            overflow: hidden;
+            background: url(../images/floor-all.png) 0 0 no-repeat;
+        }
+    }
+    .yt-box-bd{
+        width: 1190px;
+        .bd-list{
+            padding: 10px 0 0;
+            width: 1190px;
+            overflow: hidden;
+            background-color: transparent;
+            ul{
+                width: 1200px;
+                li{
+                    padding: 0;
+                    position: relative;
+                    float: left;
+                    width: 230px;
+                    height: 370px;
+                    margin: 0 10px 10px 0;
+                    background: #fff;
+                    .c-pictxt-150{
+                        width: 230px;
+                        overflow: hidden;
+                        .c-pic{
+                            width: 210px;
+                            height: 270px;
+                            margin: 0 auto;
+                            a{
+                                display: block;
+                                .c-pic-product{
+                                    width: 210px;
+                                    height: 270px;
+                                    margin: 0 auto;
+                                }
+                            }
+                        }
+                        .c-pt-detail{
+                            overflow: hidden;
+                            padding: 5px 10px 0;
+                            line-height: 18px;
+                            .c-brand{
+                                height: 24px;
+                                line-height: 24px;
+                                a{
+                                    color: #000;
+                                }
+                            }
+                            .c-tit{
+                                overflow: hidden;
+                                height: 36px;
+                                a{
+                                    color: #666;
+                                }
+                            }
+                            .c-info{
+                                padding-top: 5px;
+                                .c-oprice{
+                                    height: 28px;
+                                    line-height: 28px;
+                                    em{
+                                        float: left;
+                                        font-size: 18px;
+                                        margin-right: 5px;
+                                        color: #E5004F;
+                                    }
+                                    s{
+                                        float: right;
+                                        font-size: 14px;
+                                        color: #999;
+                                    }
+                                }
+                            }
+                        }   
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.yt_floor_zg .floor_title h6{
+    width: 380px;
+    height: 36px;
+    text-indent: -9999em;
+    overflow: hidden;
+    background: url(../images/floor-tk.png) 0 0 no-repeat;
+}
+.yt_floor_wz .floor_title h6{background-position:0 -46px;}
+.yt_floor_nz .floor_title h6{background-position:0 -92px}
+.yt_floor_xx .floor_title h6{background-position:0 -138px}
+.yt_floor_xb .floor_title h6{background-position:0 -184px}
+.yt_floor_hf .floor_title h6{background-position:0 -230px}
+.yt_floor_hw .floor_title h6{background-position:0 -276px}
+.yt_floor_ps .floor_title h6{background-position:0 -322px}
+.yt_floor_ty .floor_title h6{background-position:0 -368px}
+.float_nav_wrap{
+    width: 1190px;
+    margin: 0 auto;
+    .float_nav{
+        width: 50px;
+        height: 595px;
+        position: fixed;
+        left: 50%;
+        bottom: 20px;
+        margin-left: 600px;
+        a{
+            display: block;
+            width: 50px;
+            height: 50px;
+            margin-bottom: 5px;
+            padding: 5px 10px 15px;
+            line-height: 999px;
+            overflow: hidden;
+            background: url(../images/floor-nav.png) 0 0 no-repeat;
+        }
+        a:hover{
+            line-height:18px;
+            background:#e5004f;
+            color:#fff;font-size:14px;
+            text-align:center;
+        }
+    }
+}
+.float_nav_wrap .float_nav .Y_floor_zg{background: url(../images/floor-nav-zg.png) 0 0 no-repeat;}
+.float_nav_wrap .float_nav .Y_floor_mp{background-position:0 0}
+.float_nav_wrap .float_nav .Y_floor_wz{background-position:0 -55px}
+.float_nav_wrap .float_nav .Y_floor_nz{background-position:0 -110px}
+.float_nav_wrap .float_nav .Y_floor_xx{background-position:0 -165px}
+.float_nav_wrap .float_nav .Y_floor_xb{background-position:0 -220px}
+.float_nav_wrap .float_nav .Y_floor_hf{background-position:0 -275px}
+.float_nav_wrap .float_nav .Y_floor_yd{background-position:0 -330px}
+.float_nav_wrap .float_nav .Y_floor_ps{background-position:0 -385px}
+.float_nav_wrap .float_nav .Y_floor_ty{background-position:0 -440px}
+.float_nav_wrap .float_nav .Y_floor_top{background-position:0 -495px}
