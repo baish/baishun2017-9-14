@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/zhuce.css" />
+	</head>
+	<body>
+		<div id="hd"></div>
+		<div id="bd">
+			<div class="register-bd">
+				<!--左侧图片-->
+				<div class="imgleft">
+					<img src="images/c8517fb7-d700-4350-9b58-171a9fa2df82.jpg"  />
+				</div>
+				<!--左侧图片结束-->
+				<!--右侧表单-->
+				<div class="formright">
+					<div class="register-title">注册护照</div>
+					<div class="register-warm">已注册可<a href="http://127.0.0.1/2xiangmu/denglu.html">直接登录</a></div><!--登录跳转-->
+					<!--表单-->
+					<form action="http://127.0.0.1/2xiangmu/denglu.html" method="post" id="submit">
+						<p class="field"><input id="cellPhone" type="text" value="" placeholder="请输入手机号"/><span id="s1"></span></p>
+						<p class="field">
+							<input id="validateCode" type="text" value="" placeholder="请输入验证码"/><span id="s2"></span>
+							<input id="getValidateCode" type="button" class="getValidteCode" value="获取验证码">
+						</p>
+						<p class="field"><input id="password" type="text" placeholder="请设置银泰护照密码"/><span id="s3"></span></p>
+						<p class="field"><input id="repassword" type="text" placeholder="请再次确认银泰护照密码"/><span id="s4"></span></p>
+						<p class="useExplain">请为护照设置密码（6到12位，英文+数字）</p>
+            			<p class="useExplain">注册关联银泰护照后您可使用护照直接登录银泰网。银泰护照即银泰百货会员，注册后，在银泰百货商场可享受会员待遇，并可共享积分等。</p>
+          				<input id="submitButton" class="button forbid" type="submit" value="创建银泰护照"/>
+					</form>
+					<!--表单结束-->
+				</div>
+				<!--右侧表单结束-->
+			</div>
+		</div>
+		<div id="ft"></div>
+	</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/index1.js"></script>
+<script src="js/zhuce.js"></script>
