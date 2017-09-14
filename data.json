@@ -1,0 +1,38 @@
+[
+	{
+		"id" : "shop01",
+		"name" : "ZOJIRUSHI象印银泰专柜发货 博朗牌负离子发梳 多功能直/卷美发工具 BR750",
+		"src" : "images/10088982026_1.jpg",
+		"priceold" : "699",
+		"pricenew" : "499"
+	},
+	{
+		"id" : "shop02",
+		"name" : "ZOJIRUSHI象印银泰专柜发货 Buydeem/北鼎牌 养生壶加厚玻璃全自动多功能花茶壶K131",
+		"src" : "images/10090973464_1.jpg",
+		"priceold" : "1990",
+		"pricenew" : "1692"
+	},
+	{
+		"id" : "shop03",
+		"name" : "银泰百货下沙店女潮2017墨镜新款圆脸偏光镜女士长脸太阳镜女6115",
+		"src" : "images/yintai_cd844ee5-30b0-4bed-908d-fc92a2bd88ab.jpg",
+		"priceold" : "599",
+		"pricenew" : "199"
+	},
+	{
+		"id" : "shop04",
+		"name" : "银泰百货下沙店威古氏 偏光太阳镜男2017墨镜男士眼睛防紫外线眼镜6110",
+		"src" : "images/yintai_982fc97e-3634-484f-877b-d754fac35798.jpg",
+		"priceold" : "599",
+		"pricenew" : "358"
+	},
+	{
+		"id" : "shop05",
+		"name" : "银泰百货下沙店威古氏墨镜女潮2017韩国个性偏光太阳镜女2017明星款圆脸长脸眼镜",
+		"src" : "images/yintai_b0a090af-dadc-4a85-8856-e5b248d40e3a.jpg",
+		"priceold" : "599",
+		"pricenew" : "199"
+	}
+
+]
